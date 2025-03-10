@@ -1,7 +1,4 @@
-
-
 main () {
-	biggest3();
-	factorial();
+	multi();
+	AZ();
 }
-

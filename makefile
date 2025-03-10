@@ -1,10 +1,9 @@
-TEST.exe:main.o big3.o fact.o
-	gcc -o TEST.exe main.o big3.o fact.o
+ABC.exe:main.o multi.o AZ.o
+	gcc -o ABC.exe main.o multi.o AZ.o
 
 main.o:main.c
 	gcc -c main.c
-big3.o:big3.c
-	gcc -c big3.c
-fact.o:fact.c
-	gcc -c fact.c
-
+multi.o:multi.c
+	gcc -c multi.c
+AZ.o:AZ.c
+	gcc -c AZ.c
